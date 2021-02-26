@@ -10,9 +10,14 @@ header {
     height: 100vh;
     text-align: center;
     color: white;
+    padding-top: 14%;
 }
 
 #mouse_click {
     position: absolute;
     top: 95%;
+}
+
+h1 {
+    font-size: 60px;
 }
