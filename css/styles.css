@@ -46,6 +46,8 @@ h1 {
     padding-bottom: 5%;
 }
 
-#design {
+#design,
+#development,
+#project-management {
     display: none;
 }
