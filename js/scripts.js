@@ -7,5 +7,21 @@ $(document).ready(function() {
         $("#design").slideUp('1000');
         $("#design-img").slideDown('1000');
     });
-    console.log(alert("love"))
+    $("#development-img").click(function() {
+        $("#development-img").slideDown("1000").hide("1000");
+        $("#development").show("1000");
+    });
+    $("#development").click(function() {
+        $("#development").slideUp('1000');
+        $("#development-img").slideDown('1000');
+    });
+    $("#project-management-image").click(function() {
+        $("#project-management-image").slideDown("1000").hide("1000");
+        $("#project-management").show("1000");
+    });
+    $("#project-management").click(function() {
+        $("#project-management").slideUp('1000');
+        $("#project-management-image").slideDown('1000');
+    });
+
 });

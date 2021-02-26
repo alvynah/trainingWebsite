@@ -115,6 +115,7 @@ h1 {
 
 input[type=text],
 input[type=email],
+button[type=submit],
 #description {
     background: transparent;
     color: white;
@@ -133,6 +134,16 @@ input[type=email],
 #description {
     margin-left: 12%;
     width: 81%;
+}
+
+#btn-submit {
+    margin-left: 80%;
+    border: 1px solid;
+    box-shadow: 0 0 16px 0 solid burlywood;
+}
+
+#btn-submit:hover {
+    background: black;
 }
 
 .form-control::-webkit-input-placeholder {
