@@ -51,3 +51,23 @@ h1 {
 #project-management {
     display: none;
 }
+
+.portfolio {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    text-align: center;
+}
+
+#portfoliorow1,
+#portfoliorow2 {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-left: 12%;
+    margin-right: 12%;
+}
+
+.col-md-3 img {
+    max-width: 100%;
+    max-height: 100%;
+}
