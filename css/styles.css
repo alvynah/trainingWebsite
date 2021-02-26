@@ -66,6 +66,12 @@ h1 {
     padding-bottom: 5%;
 }
 
+.whatWeDo h2 {
+    text-align: center;
+    font-style: bold;
+    font-size: 20px;
+}
+
 #design,
 #development,
 #project-management {
@@ -90,6 +96,26 @@ h1 {
 .col-md-3 img {
     max-width: 100%;
     max-height: 100%;
+}
+
+#overlayEffect1,
+#overlayEffect2,
+#overlayEffect3,
+#overlayEffect4,
+#overlayEffect5,
+#overlayEffect6,
+#overlayEffect7,
+#overlayEffect8 {
+    display: none;
+    position: absolute;
+    color: black;
+    background-color: white;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    font-weight: bold;
+    text-align: center;
+    font-size: 30px;
 }
 
 .contact {

@@ -1,4 +1,5 @@
 $(document).ready(function() {
+
     $("#design-img").click(function() {
         $("#design-img").slideDown("1000").hide("1000");
         $("#design").show("1000");
@@ -24,4 +25,9 @@ $(document).ready(function() {
         $("#project-management-image").slideDown('1000');
     });
 
+    $("#portfolio1").mouseover(function() {
+        $("#overlayEffect1").show();
+    }).mouseout(function() {
+        $("#overlayEffect1").hide();
+    });
 });
