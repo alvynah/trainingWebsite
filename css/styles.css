@@ -138,8 +138,6 @@ button[type=submit],
 
 #btn-submit {
     margin-left: 80%;
-    border: 1px solid;
-    box-shadow: 0 0 16px 0 solid burlywood;
 }
 
 #btn-submit:hover {
