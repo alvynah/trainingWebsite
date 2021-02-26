@@ -26,4 +26,26 @@ h1 {
     color: black;
     text-align: center;
     padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.services {
+    background-image: url('../assets/backgrounds/s_image.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    text-align: center;
+    color: white;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.whatWeDo {
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+#design {
+    display: none;
 }
