@@ -1,0 +1,18 @@
+html {
+    scroll-behavior: smooth;
+}
+
+header {
+    background-image: url('../assets/backgrounds/h_img.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100vh;
+    text-align: center;
+    color: white;
+}
+
+#mouse_click {
+    position: absolute;
+    top: 95%;
+}
