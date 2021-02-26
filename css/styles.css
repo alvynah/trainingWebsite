@@ -13,13 +13,19 @@ header {
     padding-top: 14%;
 }
 
-#mouse_click {
-    position: absolute;
-    top: 95%;
+header h1 {
+    font-size: 60px;
+}
+
+#mouse-click {
+    padding-top: 2.2%;
+    animation-duration: 2.2s;
+    animation-timing-function: cubic-bezier(.15, .41, .69, .94);
+    animation-iteration-count: infinite;
 }
 
 h1 {
-    font-size: 60px;
+    font-size: 30px;
 }
 
 .about {
@@ -70,4 +76,57 @@ h1 {
 .col-md-3 img {
     max-width: 100%;
     max-height: 100%;
+}
+
+.contact {
+    background-image: url('../assets/backgrounds/c_image.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    text-align: center;
+    color: white;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.formGrid {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.contactForm {
+    background: transparent;
+    align-items: center;
+}
+
+input[type=text],
+input[type=email],
+#description {
+    background: transparent;
+    color: white;
+}
+
+#name {
+    margin-left: 12%;
+    width: 40%
+}
+
+#email {
+    margin-left: 1%;
+    width: 40%;
+}
+
+#description {
+    margin-left: 12%;
+    width: 81%;
+}
+
+.form-control::-webkit-input-placeholder {
+    color: white;
+    align-items: center;
+}
+
+footer {
+    text-align: center;
+    padding-top: 3%;
 }
