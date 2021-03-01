@@ -4,13 +4,13 @@
 #### By **{Self}**
 ## Description
 This Is a replicated website for Delani Studio which demonstrates the use of bootstrap, Javascript and jQuery.
-## Live site 
- ## Screenshot of Website
- ! [Screenshot of website](images/Screenshot.png)
+## Live site
+(https://alvynah.github.io/delani-studio/) 
+ 
 ## Project Setup Instructions
 * Open Terminal {Ctrl+Alt+T}
-* git clone https://github.com/alvynah/akanName-website.git
-* cd akanName-website
+* git clone https://github.com/alvynah/delani-studio.git
+* cd delani-studio
 * code .(for Vs Code) or atom .(for Atom)
 
 1. Ensure the following stylesheets have also be linked to you project
