@@ -182,12 +182,12 @@ button[type=submit],
     color: white;
 }
 
-#name {
+#mce-NAME {
     margin-left: 12%;
     width: 40%
 }
 
-#email {
+#mce-EMAIL {
     margin-left: 1%;
     width: 40%;
 }

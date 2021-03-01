@@ -49,10 +49,10 @@ $(document).ready(function() {
 
 //business Logic
 $(document).ready(function() {
-    $("form#contactForm").submit(function(event) {
+    $("form#mc-embedded-subscribe-form").submit(function(event) {
         event.preventDefault();
-        var name = $("input#name").val();
-        var email = $("input#email").val();
+        var name = $("input#mce-NAME").val();
+        var email = $("input#mce-EMAIL").val();
 
 
         if (name && email) {
