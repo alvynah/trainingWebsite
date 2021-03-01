@@ -98,16 +98,20 @@ h1 {
     max-height: 100%;
 }
 
-#overlayEffect1,
-#overlayEffect2,
-#overlayEffect3,
-#overlayEffect4,
-#overlayEffect5,
-#overlayEffect6,
-#overlayEffect7,
-#overlayEffect8 {
-    display: none;
-    color: black;
+#portfolio1,
+#portfolio2,
+#portfolio3,
+#portfolio4,
+#portfolio5,
+#portfolio6,
+#portfolio7,
+#portfolio8 {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* color: black;
     background-color: white;
     text-align: center;
     width: 100%;
@@ -115,6 +119,35 @@ h1 {
     font-weight: bold;
     text-align: center;
     font-size: 30px;
+    opacity: 0.5;*/
+}
+
+#work1,
+#work2,
+#work3,
+#work4,
+#work5,
+#work6,
+#work7,
+#work8 {
+    opacity: 1;
+    position: absolute;
+    left: 29px;
+    margin-left: 15px;
+    border: 3px solid white;
+    width: 80%;
+    color: #000;
+    display: none;
+}
+
+.overlay-text {
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.overlayEffect {
+    opacity: 0.4;
 }
 
 .contact {

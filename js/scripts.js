@@ -24,49 +24,63 @@ $(document).ready(function() {
         $("#project-management").slideUp('1000');
         $("#project-management-image").slideDown('1000');
     });
+    /*
 
+        $("#portfolio1").mouseover(function() {
+            $("this").addClass("mask");
+            $("#overlayEffect1").show();
+        }).mouseout(function() {
+            $("#overlayEffect1").hide();
+        });
+        $("#portfolio2").mouseover(function() {
+            $("#overlayEffect2").show();
+        }).mouseout(function() {
+            $("#overlayEffect2").hide();
+        });
+        $("#portfolio3").mouseover(function() {
+            $("#overlayEffect3").show();
+        }).mouseout(function() {
+            $("#overlayEffect3").hide();
+        });
+        $("#portfolio4").mouseover(function() {
+            $("#overlayEffect4").show();
+        }).mouseout(function() {
+            $("#overlayEffect4").hide();
+        });
+        $("#portfolio5").mouseover(function() {
+            $("#overlayEffect5").show();
+        }).mouseout(function() {
+            $("#overlayEffect5").hide();
+        });
+        $("#portfolio6").mouseover(function() {
+            $("#overlayEffect6").show();
+        }).mouseout(function() {
+            $("#overlayEffect6").hide();
+        });
+        $("#portfolio7").mouseover(function() {
+            $("#overlayEffect7").show();
+        }).mouseout(function() {
+            $("#overlayEffect7").hide();
+        });
+        $("#portfolio8").mouseover(function() {
+            $("#overlayEffect8").show();
+        }).mouseout(function() {
+            $("#overlayEffect8").hide();
+        });
+        */
+    let overlayTotalNumber = (
+        $(".overlay").toArray().length
+    );
 
-    $("#portfolio1").mouseover(function() {
-        $("#overlayEffect1").show();
-    }).mouseout(function() {
-        $("#overlayEffect1").hide();
-    });
-    $("#portfolio2").mouseover(function() {
-        $("#overlayEffect2").show();
-    }).mouseout(function() {
-        $("#overlayEffect2").hide();
-    });
-    $("#portfolio3").mouseover(function() {
-        $("#overlayEffect3").show();
-    }).mouseout(function() {
-        $("#overlayEffect3").hide();
-    });
-    $("#portfolio4").mouseover(function() {
-        $("#overlayEffect4").show();
-    }).mouseout(function() {
-        $("#overlayEffect4").hide();
-    });
-    $("#portfolio5").mouseover(function() {
-        $("#overlayEffect5").show();
-    }).mouseout(function() {
-        $("#overlayEffect5").hide();
-    });
-    $("#portfolio6").mouseover(function() {
-        $("#overlayEffect6").show();
-    }).mouseout(function() {
-        $("#overlayEffect6").hide();
-    });
-    $("#portfolio7").mouseover(function() {
-        $("#overlayEffect7").show();
-    }).mouseout(function() {
-        $("#overlayEffect7").hide();
-    });
-    $("#portfolio8").mouseover(function() {
-        $("#overlayEffect8").show();
-    }).mouseout(function() {
-        $("#overlayEffect8").hide();
-    });
-
+    for (let overlayNumber = 1; overlayNumber <= overlayTotalNumber; overlayNumber++) {
+        $(`#portfolio${overlayNumber}`).mouseover(function() {
+            $(`#portfolio${overlayNumber} > img`).addClass("overlayEffect");
+            $(`#work${overlayNumber}`).toggle();
+        }).mouseout(function() {
+            $(`#portfolio${overlayNumber} > img`).removeClass("overlayEffect");
+            $(`#work${overlayNumber}`).toggle();
+        });
+    }
 });
 
 //business Logic
@@ -80,7 +94,7 @@ $(document).ready(function() {
         if (name && email) {
             alert(name + ", we have received your message. Thank you for reaching out to us.");
         } else {
-            alert("Please enter your name and email!");
+            alert("Please enter both  your name and email!");
         }
     })
 
