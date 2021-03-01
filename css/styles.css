@@ -72,11 +72,18 @@ h1 {
     font-size: 20px;
 }
 
+.explanation {
+    display: none;
+}
+
+
+/*
 #design,
 #development,
 #project-management {
     display: none;
 }
+*/
 
 .portfolio {
     padding-top: 5%;
@@ -137,13 +144,9 @@ h1 {
     border: 3px solid white;
     width: 80%;
     color: #000;
-    display: none;
-}
-
-.overlay-text {
     font-size: 25px;
-    font-weight: 600;
-    margin-top: 10px;
+    font-style: bold;
+    display: none;
 }
 
 .overlayEffect {
