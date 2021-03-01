@@ -36,7 +36,7 @@ $(document).ready(function() {
         event.preventDefault();
         var name = $("input#name").val();
         var email = $("input#email").val();
-        var message = $("textarea#description").val();
+
 
         if (name && email) {
             alert(name + ", we have received your message. Thank you for reaching out to us.");
