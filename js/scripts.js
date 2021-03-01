@@ -1,13 +1,10 @@
 //User Logic
 $(document).ready(function() {
-    /* $(".whatwedoimg").click(function() {
-        $(this).children().slideDown("1000").hide("1000");
-        $(".explanation").show('1000');
-    });
-    $(".explanation").click(function() {
-        $(".explanation").slideUp("1000");
-$(".whatwedoimg").slideDown
-    });*/
+
+    /*  $(".whatwedoimg").click(function() {
+          $(this).children().toggle("1000");
+          $(".explanation").toggle('1000');
+      });*/
 
     $("#design-img").click(function() {
         $("#design-img").slideDown("1000").hide("1000");
@@ -47,6 +44,7 @@ $(".whatwedoimg").slideDown
             $(`#work${overlayNumber}`).toggle();
         });
     }
+
 });
 
 //business Logic
