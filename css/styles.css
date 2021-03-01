@@ -107,7 +107,6 @@ h1 {
 #overlayEffect7,
 #overlayEffect8 {
     display: none;
-    position: absolute;
     color: black;
     background-color: white;
     text-align: center;
@@ -178,4 +177,48 @@ button[type=submit],
 footer {
     text-align: center;
     padding-top: 3%;
+}
+
+@media only screen and (max-width: 755px) {
+    .col-md-3 img {
+        width: 100%;
+        margin: 20px;
+    }
+    #portfolio {
+        margin-left: 8%;
+        margin-right: 16%;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .col-md-3 img {
+        width: 100%;
+        margin: 20px;
+    }
+    #portfolio {
+        margin-left: 8%;
+        margin-right: 16%;
+    }
+}
+
+@media only screen and (min-width: 825px) {
+    .col-md-3 img {
+        width: 400px;
+        margin: 20px;
+    }
+    #portfolio {
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+}
+
+@media only screen and (min-width: 625px) {
+    .col-md-3 img {
+        width: 400px;
+        margin: 20px;
+    }
+    #portfolio {
+        margin-left: 6%;
+        margin-right: 10%;
+    }
 }
