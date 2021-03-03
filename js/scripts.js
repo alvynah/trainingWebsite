@@ -1,11 +1,5 @@
 //User Logic
 $(document).ready(function() {
-
-    /*  $(".whatwedoimg").click(function() {
-          $(this).children().toggle("1000");
-          $(".explanation").toggle('1000');
-      });*/
-
     $("#design-img").click(function() {
         $("#design-img").slideDown("1000").hide("1000");
         $("#design").show("1000");
