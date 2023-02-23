@@ -1,16 +1,16 @@
-# PIZZA-GRUB
+# TRAINING-PORTFOLIO
 ## Author
 [Alvynah Wabwoba](https://github.com/alvynah)
 #### By **{Self}**
 ## Description
 This is a simple landing portfolio page for training html and bootstrap. It shows the users PID details and their hobbies using images.
 ## Live site
-(https://alvynah.github.io/pizza-grub/) 
+(https://alvynah.github.io/trainingWebsite/) 
  
 ## Project Setup Instructions
-* Open Terminal {Ctrl+Alt+T}
-* git clone https://github.com/alvynah/pizza-grub.git
-* cd myPortfolio
+* Open Terminal {Ctrl+Alt+T}- Linnux
+* git clone https://github.com/alvynah/trainingWebsite.git
+* cd trainingWebsite
 * code .(for Vs Code) or atom .(for Atom)
 
 1. Ensure the following stylesheets have also be linked to you project
@@ -20,6 +20,12 @@ This is a simple landing portfolio page for training html and bootstrap. It show
 1. HTML5
 2. CSS
 3. BootStrap
+
+## Development Platform
+1. Vs Code - preffered
+2. Atom
+
+(N/B : Use what you're most comfortable with between the 2 )
 
 ## Test Driven Development
 * My Portfolio Sections
@@ -48,4 +54,4 @@ This section four hobbies of the trainee which are represented by images
 ## Contact Information
 For any further inquiries or contributions or comments, reach me at [Alvynah](juvatalvynah@gmail.com)
 ### License
- [MIT License](https://github.com/alvynah/pizza-grub/blob/master/License) Copyright (c) {2021} 
+ [MIT License](https://github.com/alvynah/trainingWebsite/blob/main/LICENSE) Copyright (c) {2021} 
