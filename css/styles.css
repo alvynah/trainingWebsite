@@ -2,259 +2,60 @@ html {
     scroll-behavior: smooth;
 }
 
-header {
-    background-image: url('../assets/backgrounds/h_img.jpg');
+.wallpaperSection {
+    background-image: url('../assets/dunes.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-    height: 100vh;
-    text-align: center;
-    color: white;
-    padding-top: 14%;
+
 }
 
-header h1 {
-    font-size: 60px;
-}
-
-#mouse-click {
-    padding-top: 2.2%;
-    animation: bounce 2s infinite;
-}
-
-@keyframes bounce {
-    0%,
-    20%,
-    50%,
-    80%,
-    100% {
-        transform: translateX(0);
-    }
-    40% {
-        transform: translateX(-55px);
-    }
-    60% {
-        transform: translateX(-45px);
-    }
-}
-
-h1 {
-    font-size: 30px;
-}
-
-.about {
-    color: black;
-    text-align: center;
-    padding-top: 5%;
-    padding-bottom: 5%;
-}
-
-.services {
-    background-image: url('../assets/backgrounds/s_image.jpg');
+.landing {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
+    height: 20vh;
     text-align: center;
     color: white;
-    padding-top: 5%;
-    padding-bottom: 5%;
+    padding-top: 1%;
+    font-size: 80px;
+    font-weight: 700;
 }
 
-.whatWeDo {
-    text-align: center;
-    padding-top: 5%;
-    padding-bottom: 5%;
+#aboutMe {
+    color: white;
+    height: 35vh;
+
 }
 
-.whatWeDo h2 {
+.myDetails {
+    background-color: rgb(1, 1, 1, 0.8);
     text-align: center;
-    font-style: bold;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin-left: 15%;
+    margin-right: 15%;
     font-size: 20px;
+  
+
+
+
 }
 
-.explanation {
-    display: none;
-}
-
-
-/*
-#design,
-#development,
-#project-management {
-    display: none;
-}
-*/
-
-.portfolio {
-    padding-top: 5%;
+#hobbiesSection {
+    background-color: aliceblue;
     padding-bottom: 5%;
-    text-align: center;
-}
-
-#portfoliorow1,
-#portfoliorow2 {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    margin-left: 12%;
-    margin-right: 12%;
-}
-
-.col-md-3 img {
-    max-width: 100%;
-    max-height: 100%;
-}
-
-#portfolio1,
-#portfolio2,
-#portfolio3,
-#portfolio4,
-#portfolio5,
-#portfolio6,
-#portfolio7,
-#portfolio8 {
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    flex-wrap: wrap;
-    justify-content: center;
-    /* color: black;
-    background-color: white;
-    text-align: center;
-    width: 100%;
-    height: 100%;
-    font-weight: bold;
-    text-align: center;
-    font-size: 30px;
-    opacity: 0.5;*/
-}
-
-#work1,
-#work2,
-#work3,
-#work4,
-#work5,
-#work6,
-#work7,
-#work8 {
-    opacity: 1;
-    position: absolute;
-    left: 29px;
-    margin-left: 15px;
-    border: 3px solid white;
-    width: 80%;
-    color: #000;
-    font-size: 25px;
-    font-style: bold;
-    display: none;
-}
-
-.overlayEffect {
-    opacity: 0.4;
-}
-
-.contact {
-    background-image: url('../assets/backgrounds/c_image.jpg');
+    height: 30vh;
+    padding-top: 1%;
     background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-    text-align: center;
-    color: white;
-    padding-top: 5%;
-    padding-bottom: 5%;
+    font-size: 20px;
+    font-weight: 700;
+
+
+
 }
 
-.formGrid {
-    margin-left: 10%;
-    margin-right: 10%;
-}
-
-.contactForm {
-    background: transparent;
-    align-items: center;
-}
-
-input[type=text],
-input[type=email],
-button[type=submit],
-#description {
-    background: transparent;
-    color: white;
-}
-
-#mce-NAME {
-    margin-left: 12%;
-    width: 40%
-}
-
-#mce-EMAIL {
-    margin-left: 1%;
-    width: 40%;
-}
-
-#description {
-    margin-left: 12%;
-    width: 81%;
-}
-
-#btn-submit {
-    margin-left: 80%;
-}
-
-#btn-submit:hover {
-    background: black;
-}
-
-.form-control::-webkit-input-placeholder {
-    color: white;
-    align-items: center;
-}
-
-footer {
-    text-align: center;
-    padding-top: 3%;
-}
-
-@media only screen and (max-width: 755px) {
-    .col-md-3 img {
-        width: 100%;
-        margin: 20px;
-    }
-    #portfolio {
-        margin-left: 8%;
-        margin-right: 16%;
-    }
-}
-
-@media only screen and (max-width: 425px) {
-    .col-md-3 img {
-        width: 100%;
-        margin: 20px;
-    }
-    #portfolio {
-        margin-left: 8%;
-        margin-right: 16%;
-    }
-}
-
-@media only screen and (min-width: 825px) {
-    .col-md-3 img {
-        width: 400px;
-        margin: 20px;
-    }
-    #portfolio {
-        margin-left: 10%;
-        margin-right: 10%;
-    }
-}
-
-@media only screen and (min-width: 625px) {
-    .col-md-3 img {
-        width: 400px;
-        margin: 20px;
-    }
-    #portfolio {
-        margin-left: 6%;
-        margin-right: 10%;
-    }
+.overlay {
+    height: 300px;
+    width: 400px;
 }
